@@ -1,0 +1,28 @@
+select * from avaliacoes;
+
+INSERT INTO avaliacoes (nota, descricao, data, fk_usuario, fk_produto) VALUES
+(5, 'Produto excelente, superou minhas expectativas!', '2025-04-01', 1, 10),
+(4, 'Muito bom, mas poderia ter vindo com manual.', '2025-04-02', 2, 8),
+(3, 'Cumpre o que promete, mas esperava mais.', '2025-04-02', 3, 15),
+(5, 'Perfeito! Qualidade top.', '2025-04-03', 4, 5),
+(2, 'Veio com defeito, precisei trocar.', '2025-04-03', 5, 21),
+(4, 'Gostei bastante, recomendo.', '2025-04-04', 6, 18),
+(1, 'Péssima experiência. Produto quebrou em 3 dias.', '2025-04-04', 7, 7),
+(5, 'Produto muito bem embalado e funcionando perfeitamente.', '2025-04-05', 8, 30),
+(3, 'Esperava mais funcionalidades.', '2025-04-06', 9, 12),
+(4, 'Boa qualidade e entrega rápida.', '2025-04-06', 10, 25),
+(5, 'Super prático e útil!', '2025-04-07', 11, 3),
+(4, 'Entrega rápida e produto bom.', '2025-04-07', 12, 17),
+(2, 'Não gostei da qualidade dos materiais.', '2025-04-08', 13, 11),
+(5, 'Maravilhoso, estou usando todos os dias.', '2025-04-09', 14, 2),
+(3, 'Regular. Serve para o básico.', '2025-04-09', 15, 29),
+(4, 'Produto bonito e eficiente.', '2025-04-10', 16, 32),
+(1, 'Infelizmente não funcionou aqui.', '2025-04-11', 17, 20),
+(5, 'Recomendo a todos. Muito bom.', '2025-04-11', 18, 6),
+(4, 'Ótima performance pelo preço.', '2025-04-12', 19, 27),
+(3, 'Veio funcionando, mas não é intuitivo.', '2025-04-12', 20, 23),
+(5, 'Sensacional, melhor compra do ano!', '2025-04-12', 21, 35),
+(2, 'Não atendeu minhas necessidades.', '2025-04-13', 22, 13),
+(4, 'Qualidade acima do esperado.', '2025-04-13', 23, 46),
+(3, 'Entrega atrasou um pouco, mas produto bom.', '2025-04-13', 24, 39),
+(5, 'Produto excelente, já recomendei!', '2025-04-13', 25, 50);

@@ -1,0 +1,122 @@
+select * from usuarios;
+
+INSERT INTO usuarios (nome_usuario, email, cpf, telefone, tipo_usuario, fk_endereco) VALUES
+('Flavio Jose', 'flavio.jose@email.com', '12345678901', '11999999999', 'administrador', 1),
+('Maria Aparecida Silva', 'maria.aparecida@email.com', '10987654321', '21988888888', 'administrador', 2),
+('Francisca das Dores Lima', 'francisca.das.dores@email.com', '12398765432', '21977777777', 'administrador', 3),
+('Antônia Bezerra Souza', 'antonia.souza@email.com', '98765432100', '22766666666', 'administrador', 4),
+('Ana Paula Santos', 'ana.paula@email.com', '12345678902', '22955555555', 'administrador', 5),
+
+('José da Silva', 'jose.silva@email.com', '12345678903', '81988888888', 'cliente', 6),
+('Maria Oliveira', 'maria.oliveira@email.com', '10987654322', '81999999999', 'cliente', 7),
+('João Pereira', 'joao.pereira@email.com', '12345678904', '81988888889', 'cliente', 8),
+('Ana Souza', 'ana.souza@email.com', '98765432101', '81977777777', 'cliente', 9),
+('Francisco Lima', 'francisco.lima@email.com', '12398765433', '81966666666', 'cliente', 10),
+
+('Raimundo Silva', 'raimundo.silva@email.com', '98765432102', '81955555555', 'cliente', 11),
+('Pedro Santos', 'pedro.santos@email.com', '12345678905', '81944444444', 'cliente', 12),
+('Marcos Costa', 'marcos.costa@email.com', '10987654323', '81933333333', 'cliente', 13),
+('Luciana Almeida', 'luciana.almeida@email.com', '12398765434', '81922222222', 'cliente', 14),
+('Fernanda Rocha', 'fernanda.rocha@email.com', '98765432103', '81911111111', 'cliente', 15),
+
+('Juliana Lima', 'juliana.lima@email.com', '12345678906', '82988888888', 'cliente', 16),
+('Cláudia Rodrigues', 'claudia.rodrigues@email.com', '10987654324', '82977777777', 'cliente', 17),
+('Carlos Fernandes', 'carlos.fernandes@email.com', '12398765435', '82966666666', 'cliente', 18),
+('Luciana Araújo', 'luciana.araújo@email.com', '98765432104', '82955555555', 'cliente', 19),
+('Camila Pereira', 'camila.pereira@email.com', '12345678907', '82944444444', 'cliente', 20),
+
+('Raimunda Souza', 'raimunda.souza@email.com', '10987654325', '82933333333', 'cliente', 21),
+('Rosângela Costa', 'rosangela.costa@email.com', '12398765436', '82922222222', 'cliente', 22),
+('Cícero Fernandes', 'cicero.fernandes@email.com', '98765432105', '82911111111', 'cliente', 23),
+('Severino Lima', 'severino.lima@email.com', '12345678908', '83988888888', 'cliente', 24),
+('Damião Rocha', 'damiao.rocha@email.com', '10987654326', '83977777777', 'cliente', 25),
+
+('Genival Araújo', 'genival.araujo@email.com', '12398765437', '83966666666', 'cliente', 26),
+('Socorro Almeida', 'socorro.almeida@email.com', '98765432106', '83955555555', 'cliente', 27),
+('Zefinha Costa', 'zefinha.costa@email.com', '12345678909', '83944444444', 'cliente', 28),
+('Adalberto Santos', 'adalberto.santos@email.com', '10987654327', '83933333333', 'cliente', 29),
+('Joana Lima', 'joana.lima@email.com', '12398765438', '83922222222', 'cliente', 30),
+
+('Bruna Pereira', 'bruna.pereira@email.com', '98765432107', '84988888888', 'cliente', 31),
+('Felipe Barbosa', 'felipe.barbosa@email.com', '12345678910', '84977777777', 'cliente', 32),
+('Eduardo Souza', 'eduardo.souza@email.com', '10987654328', '84966666666', 'cliente', 33),
+('Vanessa Alves', 'vanessa.alves@email.com', '12398765439', '84955555555', 'cliente', 34),
+('Leonardo Ferreira', 'leonardo.ferreira@email.com', '98765432108', '84944444444', 'cliente', 35),
+
+('Daniela Martins', 'daniela.martins@email.com', '12345678911', '84933333333', 'cliente', 36),
+('Anderson Costa', 'anderson.costa@email.com', '10987654329', '84922222222', 'cliente', 37),
+('Tatiane Rocha', 'tatiane.rocha@email.com', '12398765440', '84911111111', 'cliente', 38),
+('Cristiane Alves', 'cristiane.alves@email.com', '98765432109', '85988888888', 'cliente', 39),
+('Alessandro Pereira', 'alessandro.pereira@email.com', '12345678912', '85977777777', 'cliente', 40),
+
+('Letícia Martins', 'leticia.martins@email.com', '10987654330', '85966666666', 'cliente', 41),
+('Paulo Henrique Silva', 'paulo.henrique@email.com', '12398765441', '85955555555', 'cliente', 42),
+('Roberta Oliveira', 'roberta.oliveira@email.com', '98765432110', '85944444444', 'cliente', 43),
+('Gustavo Costa', 'gustavo.costa@email.com', '12345678913', '85933333333', 'cliente', 44),
+('Tatiana Rocha', 'tatiana.rocha@email.com', '10987654331', '85922222222', 'cliente', 45),
+
+('Rodrigo Lima', 'rodrigo.lima@email.com', '12398765442', '85911111111', 'cliente', 46),
+('Flávia Pereira', 'flavia.pereira@email.com', '98765432111', '86988888888', 'cliente', 47),
+('Larissa Silva', 'larissa.silva@email.com', '12345678914', '86977777777', 'cliente', 48),
+('Thiago Santos', 'thiago.santos@email.com', '10987654332', '86966666666', 'cliente', 49),
+('Rafael Costa', 'rafael.costa@email.com', '12398765443', '86955555555', 'cliente', 50),
+
+('Luiza Martins', 'luiza.martins@email.com', '98765432112', '86944444444', 'cliente', 51),
+('Lucas Pereira', 'lucas.pereira@email.com', '12345678915', '86933333333', 'cliente', 52),
+('Marília Almeida', 'marilia.almeida@email.com', '10987654333', '86922222222', 'cliente', 53),
+('Davi Barbosa', 'davi.barbosa@email.com', '12398765444', '86911111111', 'cliente', 54),
+('Lorena Souza', 'lorena.souza@email.com', '98765432113', '87988888888', 'cliente', 55),
+
+('Cláudio Rodrigues', 'claudio.rodrigues@email.com', '12345678916', '87977777777', 'cliente', 56),
+('Fábio Silva', 'fabio.silva@email.com', '10987654334', '87966666666', 'cliente', 57),
+('Eduarda Costa', 'eduarda.costa@email.com', '12398765445', '87955555555', 'cliente', 58),
+('Ana Beatriz Pereira', 'ana.beatriz@email.com', '98765432114', '87944444444', 'cliente', 59),
+('Gustavo Martins', 'gustavo.martins@email.com', '12345678917', '87933333333', 'cliente', 60),
+
+('Marcos Antônio Rocha', 'marcos.rocha@email.com', '10987654335', '87922222222', 'cliente', 61),
+('Roberta Silva', 'roberta.silva@email.com', '12398765446', '87911111111', 'cliente', 62),
+('Wendell Barbosa', 'wendell.barbosa@email.com', '98765432115', '88988888888', 'cliente', 63),
+('Paula Costa', 'paula.costa@email.com', '12345678918', '88977777777', 'cliente', 64),
+('César Lima', 'cesar.lima@email.com', '10987654336', '88966666666', 'cliente', 65),
+
+('Gustavo Pereira', 'gustavo.pereira@email.com', '12398765447', '88955555555', 'cliente', 66),
+('Sara Silva', 'sara.silva@email.com', '98765432116', '88944444444', 'cliente', 67),
+('Flávia Barbosa', 'flavia.barbosa@email.com', '12345678919', '88933333333', 'cliente', 68),
+('Alexandre Souza', 'alexandre.souza@email.com', '10987654337', '88922222222', 'cliente', 69),
+('Davi Martins', 'davi.martins@email.com', '12398765448', '88911111111', 'cliente', 70),
+
+('Jessica Pereira', 'jessica.pereira@email.com', '98765432117', '89988888888', 'cliente', 71),
+('Victor Almeida', 'victor.almeida@email.com', '12345678920', '89977777777', 'cliente', 72),
+('Sofia Santos', 'sofia.santos@email.com', '10987654338', '89966666666', 'cliente', 73),
+('Eliane Costa', 'eliane.costa@email.com', '12398765449', '89955555555', 'cliente', 74),
+('Amanda Lima', 'amanda.lima@email.com', '98765432118', '89944444444', 'cliente', 75),
+
+('Tiago Rodrigues', 'tiago.rodrigues@email.com', '12345678921', '89933333333', 'cliente', 76),
+('Amanda Souza', 'amanda.souza@email.com', '10987654339', '89922222222', 'cliente', 77),
+('Mário Costa', 'mario.costa@email.com', '12398765450', '89911111111', 'cliente', 78),
+('Larissa Almeida', 'larissa.almeida@email.com', '98765432119', '90988888888', 'cliente', 79),
+('Simone Lima', 'simone.lima@email.com', '12345678922', '90977777777', 'cliente', 80),
+
+('Tatiane Pereira', 'tatiane.pereira@email.com', '10987654340', '90966666666', 'cliente', 81),
+('Sônia Barbosa', 'sonia.barbosa@email.com', '12398765451', '90955555555', 'cliente', 82),
+('Lucas Costa', 'lucas.costa@email.com', '98765432120', '90944444444', 'cliente', 83),
+('Marcela Silva', 'marcela.silva@email.com', '12345678923', '90933333333', 'cliente', 84),
+('Cintia Lima', 'cintia.lima@email.com', '10987654341', '90922222222', 'cliente', 85),
+
+('Viviane Pereira', 'viviane.pereira@email.com', '12398765452', '90911111111', 'cliente', 86),
+('Rodrigo Santos', 'rodrigo.santos@email.com', '98765432121', '91988888888', 'cliente', 87),
+('Adriana Souza', 'adriana.souza@email.com', '12345678924', '91977777777', 'cliente', 88),
+('Daniel Alves', 'daniel.alves@email.com', '10987654342', '91966666666', 'cliente', 89),
+('Paula Rocha', 'paula.rocha@email.com', '12398765453', '91955555555', 'cliente', 90),
+
+('Bárbara Costa', 'barbara.costa@email.com', '98765432122', '91944444444', 'cliente', 91),
+('Sabrina Pereira', 'sabrina.pereira@email.com', '12345678925', '91933333333', 'cliente', 92),
+('Aline Lima', 'aline.lima@email.com', '10987654343', '91922222222', 'cliente', 93),
+('Thiago Souza', 'thiago.souza@email.com', '12398765454', '91911111111', 'cliente', 94),
+('Juliana Almeida', 'juliana.almeida@email.com', '98765432123', '92988888888', 'cliente', 95),
+
+('Roberta Costa', 'roberta.costa@email.com', '12345678926', '92977777777', 'cliente', 96),
+('Érika Barbosa', 'erika.barbosa@email.com', '10987654344', '92966666666', 'cliente', 97),
+('Patrícia Lima', 'patricia.lima@email.com', '12398765455', '92955555555', 'cliente', 98),
+('Carlos Pereira', 'carlos.pereira@email.com', '98765432124', '92944444444', 'cliente', 99),
+('Tatiane Costa', 'tatiane.costa@email.com', '12345678927', '92933333333', 'cliente', 100);
